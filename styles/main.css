@@ -86,3 +86,16 @@ p {
     left: 20px;
   }
   
+  .first-table-div {
+    width: 80%;
+    display: inline-block;
+  }
+
+  .second-table-div {
+    width: 80%;
+    display: inline-block;
+  }
+
+  nav {
+ 
+  }
