@@ -67,6 +67,7 @@ div {
   margin-top: 10px;
   padding-left: 20px;
   padding-top: 20px;
+  padding-right: 30px;
 }
 
 @media (min-width: 43rem) {
@@ -81,6 +82,7 @@ div {
     margin-top: 10px;
     padding-left: 20px;
     padding-top: 20px;
+    padding-right: 40px;
   }
   
 }
@@ -114,6 +116,7 @@ p {
   
   color: green;
   font-size: 0.9rem;
+ 
 }
 
 li {
@@ -123,26 +126,48 @@ li {
 
 @media (min-width: 43rem){
   p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    
   }
   li {
 
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   
   .grey-text {
 
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
 
 }
 
 
+@media (min-width: 58rem){
+  p {
+    font-size: 1.3rem;
+    
+  }
+  li {
+
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 2.1rem;
+  }
+  
+  .grey-text {
+
+    font-size: 1.8rem;
+  }
+
+
+}
 
 
 /* CLASSES & ID */
@@ -193,13 +218,19 @@ padding-left: 100px;
 
 @media (min-width: 43rem) {
 
+  div img {width: 320px;
+  height: auto;
+  padding-left: 300px;
+  }
+}
+
+@media (min-width: 43rem) {
+
   div img {width: 600px;
   height: auto;
   padding-left: 400px;
   }
 }
-
-
 
  
  
