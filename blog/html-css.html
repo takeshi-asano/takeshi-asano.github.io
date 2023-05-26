@@ -3,90 +3,74 @@
   <head>
     <title>Technical Blog-CSS Concepts</title>
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
-    <style>
-      body
-      {
-background-color: lightgreen;
-font-family: Cambria;
-
-      }
-    </style>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
   </head>
   
   <body>
-
-  <h3>CSS Concepts Tech-blog</h3>
-  <p>
-    In simple terms, classes and IDs are used in HTML and CSS to identify and style elements on a web page.
-     Here are some best practices associated with using classes and IDs:
-  </p>
+    <section id="container"> 
+      <div id="nav-div"><a href="../index.html">My Pikopiko Logbook</a></div>
+      <div id="nav-div"><a href="blog/te-houtaewa-template.html">Te-Houtaewa Blog</a> </div>
+      <div id="nav-div"><a href="identity-values.html">Identity-Values</a></div>
+      <div id="nav-div"><a href="learning-plan.html">Learning Plan</a></div>
     
-  <p>
-    <ol>
+    </section>
+
+    <main>
+      <h1 class="grey-text">CSS Concepts Tech-blog</h1>
       <div>
-      <li>Classes</li>
-        <ul>
-          <li>Classes are used to group elements that share similar characteristics or styles. 
-            For example, you can have a class called "button" and apply it to multiple buttons on your page.</li>
-          <li>Best practice is to use classes when you have multiple elements that need to be styled in the same way. 
-            It allows you to apply styles to multiple elements at once without repeating code.</li>
-          <li>Classes are not unique, meaning you can use the same class name on different
-            elements throughout your page or even across different pages.</li>
-        </ul>
-
-        <p>
-          STEP by STEP guide:
-            <ol>
-              <li>Create a CSS class attribute declaration. Note to start with "." 
-                &lt;style&gt;
-                .class-name {
-                  color: blue;
-                }
-                &lt;/style&gt;
-              </li>   
-              <li>It is now time to call & apply the class name create on step 1. Apply the class to an 
-                element like this: &lt;h1 class="class-name"&gt; Hello World&lt;/h2&gt;
-              </li> 
-            </ol>
+      <p>
+        In simple terms, classes and IDs are used in HTML and CSS to identify and style elements on a web page.
+        Here are some best practices associated with using classes and IDs:
       </p>
-      </div>
+      </div> 
+        <div>
 
-
-
-
-<div>
-
-
-      <li>ID</li>
-        <ul>
-          <li>IDs are used to uniquely identify a specific element on a web page.
-             Each ID should only be assigned to one element.</li>
-          <li>Best practice is to use IDs when you need to target a specific element for a particular purpose. 
-            For example, you might have an element that requires specific JavaScript functionality or unique styling.</li>
-          <li>IDs are intended to be unique within the entire document, 
-            so it's not recommended to reuse the same ID on multiple elements.</li>
-        </ul>
-
-        <p>
-          STEP by STEP guide:
-            <ol>
-              <li>Create a CSS id attribute declaration. Note to start with "#". 
-                &lt;style&gt;
-                .id-name {
-                  color: blue;
-                }
-                &lt;/style&gt;
-              </li>   
-              <li>It is now time to call & apply the Id name create on step 1. Apply the Id to an 
-                element like this: &lt;h1 id="id-name"&gt; Hello World&lt;/h2&gt;
-              </li> 
+            <ol>          
+              <li><span class="bold">Classes</span></li>
+                <ul>
+                  <li>Classes are used to group elements that share similar characteristics or styles. 
+                    For example, you can have a class called "span" and apply it to multiple span element on your page.</li>
+                  <li>Best practice is to use classes when you have multiple elements that need to be styled in the same way. 
+                    It allows you to apply styles to multiple elements at once without repeating code.</li>
+                  <li>Classes are not unique, meaning you can use the same class name on different
+                    elements throughout your page or even across different pages.</li>
+                </ul>
+                    <!-- STEPS -->
+                    <p>
+                        Step by step guide:
+                          <ol>
+                            <li>Add a class attribute with a <span class="red-text">class name</span> in between the quotation mark to <span class="green-text">span element</span>.</li>
+                            <a href="https://ibb.co/hgBS1Vv"><img src="https://i.ibb.co/S6tz7Bp/class.png" alt="class" border="0"></a>
+                            <li>In your style sheet file add CSS class attribute. Note to start with a "." followed by the <span class="red-text">class name</span>. </li> 
+                            <a href="https://ibb.co/X3hxC4M"><img src="https://i.ibb.co/rcC2wtN/classCSS.png" alt="classCSS" border="0"></a>
+                          </ol>
+                    </p>
+                
+              <li><span class="bold">ID</span></li>
+                  <ul>
+                    <li>IDs are used to uniquely identify a specific element on a web page.
+                      Each ID should only be assigned to one element.</li>
+                    <li>Best practice is to use IDs when you need to target a specific element for a particular purpose. 
+                      For example, you might have multiple input buttons on a page and you want to single out that one button to style it uniquely.</li>
+                    <li>IDs are intended to be unique within the entire document, 
+                      so it's not recommended to reuse the same ID on multiple elements.</li>
+                  </ul>
+                    <!-- STEPS -->
+                      <p>
+                        STEP by STEP guide:
+                          <ol>
+                            <li>Add an Id attribute with an <span class="orange-text">Id name</span> in between the quotation mark to input buttons.</li>
+                            <a href="https://ibb.co/sq1Phs5"><img src="https://i.ibb.co/FzYW98s/idhtml.png" alt="idhtml" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a>
+                            <li>In your style sheet file add Id attribute. Note to start with "#" followed by the Id name.</li>
+                            <a href="https://ibb.co/DwLMFMV"><img src="https://i.ibb.co/F8nY1Yx/idcss.png" alt="idcss" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+                              
+                          </ol>
+                      </p>
+                      
             </ol>
-      </p>
-      </div>      
-    </ol>
-  </p>
-    
-  <a href="../index.html">HOME</a>
+        </div>
+    </main>    
+  
   </body>
 </html>

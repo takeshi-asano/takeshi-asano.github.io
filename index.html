@@ -1,70 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Time Management</title>
+  <title>DevAcademy Journey</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="styles/main.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
   
-  <style>
-  </style>
 </head>
 
 <body>
-    <h1>Trident Calendar System</h1>
-    <section id="container"> 
-   
-      <div><a href="blog/te-houtaewa-template.html">Te-Houtaewa Blog</a> </div>
-      <div><a href="blog/html-css.html">CSS Concepts</a></div>
-      <div><a href="identity-values.html">Identity-Values</a></div>
-      <div><a href="learning-plan.html">Learning Plan</a></div>
+  
+    <h1>My Pikopiko Logbook</h1>
+      <nav>
+        <ul>
+        <li class="navbar"><a href="blog/te-houtaewa-template.html">Te-Houtaewa Blog</a></li>
+        <li class="navbar"><a href="blog/html-css.html">CSS Concepts</a></li>
+        <li class="navbar"><a href="identity-values.html">Identity-Values</a></li>
+        <li class="navbar"><a href="learning-plan.html">Learning Plan</a></li>
+      </ul>
+      </nav>
     
-    </section>
+    
 
-  <h5>Method 1: Plannning an ideal Year</h5>
+      <Main>
+      <div>
+        <h2><span class="bold">Sprint 1</span></h2>
+        <p>Tool to learn: <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home">
+          I am a link to SIGN UP to Github</a></p>
+        <a href="https://www.imagehost.at/images/2023/05/25/Gitlogo.png">
+          <img src="https://www.imagehost.at/images/2023/05/25/Gitlogo.png" alt="Gitcat logo">
+        </a>
+        <form action="https://takeshi-asano.github.io/identity-values.html" method="get">
+          <p>
+            <Label for="searchbox">This is a label that connects to input:</Label>
+            <input id="searchbox" type="Type the word 'values'" placeholder="type the word 'values'" required>
+            <button>This button submits the form specified in 'action'</button>
+          </p>
+          
+        </form>
+      </div>  
 
-  <p>Year at a glance view. This technique gives an insight and clarity into what the rest of the
-  year is going to look like. Since this is not really a view that we see particularly often. It
-  is really helpful for zooming out and getting a birds's eye view of the entire year to easily plan
-  especially when you are adding something to your schedule.
-  </p>
+      <div>
+        <h2><span class="bold">Sprint 2</span></h2>
+          
+          <Form action="https://takeshi-asano.github.io/">
+          <label for="radio"><p>Do you prefer radio or checkbox buttons?</p>
+            <input id="radio" type="radio" name="indoor-outdoor">radio 
+            <input id="checkbox" type="checkbox" name="indoor-outdoor">checkbox 
+          </label>
+          <button>Reset</button>
+          <button id="unique-button">I am an ID Associated button</button>
+          </Form>
+        
+        <ol>
+          <li>HTML Hot Topics
+              <ul>
+                  <li>HTML Attribute</li>
+                  <li>HTML5 Declaration</li>
+              </ul>
+          </li>
+          <li>CSS Hot Topics
+              <ul>
+                <li>Responsive CSS</li>
+                <li>Units</li>
+              </ul>
+            </li>
+        </ol>
+      
+        <p>
+          A <span class="red-text">div</span> tag creates a block-level element while a span tag wraps around an inline element. Additionally, 
+            the <span class="red-text">span</span> tag is used to group smaller pieces of text together, whereas div can be used to group larger ones. 
+            I'm excited to <span class="red-text">Javascript</span> so I can animate images.
+        </p>
+      </div>
+        <!-- <h2>Sprint 3</h2> saving this part for sprint 3 -->
 
-  <a href="https://i.ibb.co/F77yWkL/365-days.png" target="_blank" 
-  alt="365 days of 2023">
-  <img class="image-border" src="https://i.ibb.co/F77yWkL/365-days.png" alt="365 days calendar logo">
-  </a>
+    </Main>
 
-  <p>
-    <a target="_blank" href="https://clockify.me/time-management-techniques">
-      More time management techniques</a>.
-  </p>
+    
 
-
- 
-    <!-- Continue adding rows for each week -->
-    <!-- For example:
-    <tr>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-      <td>2</td>
-    </tr>
-    -->
-  </table>
   
-  <!-- Repeat the above table for each month -->
-  
-  <h2 id="events">Events</h2>
-  <ul>
-    <li><span class="red-text">January 1:</span> 1st day of the Year</li>
-    <li><span class="red-text">February 14:</span> Valentines Day</li>
-    <li><span class="red-text">April 14:</span> My Birthday</li>
-    <!-- Add more events as needed -->
-  </ul>
-  <form class="position" action="#">
-    <input type="text" placeholder="Add more events" required>
-    <button class="red-text" type="submit">Submit</button>
-  </form>
-  
+
+
 </body>
 </html>
